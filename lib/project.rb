@@ -6,6 +6,7 @@ class Project
   end
   
   def add_backer
-    pr
+    backer = Backer.new
+    @backers << backer
   end
 end
