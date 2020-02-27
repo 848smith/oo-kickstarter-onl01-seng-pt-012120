@@ -6,8 +6,8 @@ class Project
     @title = project
   end
   
-  def add_backer
-    backer = Backer.new
+  def add_backer(name)
+    backer = Backer.new(name)
     @backers << backer
   end
 end
